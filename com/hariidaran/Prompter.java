@@ -158,7 +158,7 @@ public class Prompter {
         System.out.print("Name of the player:  ");
         mName = mReader.readLine();
 
-        System.out.print("Name of item (it should be singular):  ");
+        System.out.print("Name of item (the noun should be singular):  ");
         String itemName = mReader.readLine();
         if (!(itemName.equals("") || itemName.equals(String.format("%n"))) || isNaN(itemName)) {
             mJar.setItemName(itemName);
